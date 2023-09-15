@@ -1,0 +1,33 @@
+.date-picker-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .date-picker-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .date-picker-input {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    background-color: #002a57;
+    color: #ffffff;
+  }
+  
+  .input-date{
+    position: absolute;
+    width: 109px;
+    right: 30px;
+  }
+  .date-picker-input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+  
+  .date-picker-input::selection {
+    background-color: #05c1ff;
+  }
+  
+  .date-picker-input:focus {
+    outline: none;
+  }

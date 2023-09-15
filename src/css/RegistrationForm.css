@@ -1,0 +1,67 @@
+h2{
+    text-align: center;
+    width: 100%;
+}
+form{
+    margin: 0 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+        padding: 50px;
+}
+
+textarea{
+    resize: none;
+}
+
+.common {
+    margin: 15px 0;
+    width: 100%;
+}
+
+input, textarea ,select {
+    margin-left: 10px;
+    color: rgb(70, 70, 70);
+    width: 100%;
+    border-color: transparent;
+}
+.name , .date , .button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label, input{
+    padding: 8px;
+    display: block    
+}
+
+
+.btn{
+    background-color: rgb(7, 16, 71);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius:10px;
+    border: none;
+    width: 45%;
+}
+
+.btn-cancel{
+    background-color: rgb(182, 182, 182);
+    color: rgb(7, 16, 71);
+    border-radius:10px;
+
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+}
+#Description{
+    background-color: rgb(211, 234, 255);
+    outline: none;
+}
